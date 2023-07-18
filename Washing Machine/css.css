@@ -1,0 +1,227 @@
+/* CSS */
+
+/* ตกแต่งพื้นหลังหน้าเว็บ */
+body {
+    background-color: #f9f9f9;
+  }
+  
+  /* ตกแต่งเฮดเดอร์ */
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  /* ตกแต่งเมนูการนำทาง */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* ตกแต่งเนื้อหา */
+  section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* ตกแต่งภาพ */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* ตกแต่งเทคโนโลยี */
+  .technology {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .technology-item {
+    flex: 0 0 33.33%;
+    padding: 20px;
+  }
+  
+  .technology-item img {
+    margin-bottom: 10px;
+  }
+  
+  .technology-item h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .technology-item p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* ตกแต่งท้ายหน้า */
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* กำหนดขนาดของเซกชัน "บริการ" */
+  #content {
+    padding: 40px;
+  }
+  
+  /* ตกแต่งตาราง */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  table th,
+  table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+  }
+  
+  table th {
+    background-color: #f5f5f5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* ตกแต่งเนื้อหาในตาราง */
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody td {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* ตกแต่งพื้นหลังเว็บไซต์ในสไตล์ minimal */
+  body {
+    background-color: #fff;
+  }
+  
+  #content {
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .pricing-table {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  #content table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #content th,
+  #content td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #content th {
+    background-color: #f2f2f2;
+    color: #000;
+  }
+  
+  #content tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #content tbody td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #content tbody td:last-child {
+    text-align: center;
+  }
+  
+  #content img {
+    max-width: 50px;
+    height: auto;
+  }
+  
+  #content button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #content button:hover {
+    background-color: #45a049;
+  }
+  
